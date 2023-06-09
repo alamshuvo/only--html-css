@@ -54,6 +54,7 @@ body{
 }
 div{
     background-image: url(img/background.jpg);
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     color: #ffffff !important;
@@ -123,3 +124,24 @@ h4{
         font-size: 20px;
     }
     /*hero section css end*/
+    /*about area css start*/
+    .about-area{
+        background-color: #1e1345;
+        padding: 100px 0px;
+    }
+    .about-contant{
+        display: flex;
+        align-items: center;
+        margin-left: 400px;
+    }
+    .about-img{
+        flex: 1;
+    }
+    .about-text{
+        flex: 1;
+    }
+    .about-text h2{
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    /*about area css end*/
