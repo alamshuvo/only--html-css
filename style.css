@@ -1,0 +1,19 @@
+
+/* basic need start*/
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+/*basic need end */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background-color: blueviolet;
+}
+
+h1,
+h2,
+h3,
+h4{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 700;
+}
