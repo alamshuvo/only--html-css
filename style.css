@@ -162,8 +162,68 @@ h4{
     .services-area{
         padding: 100px;
     }
+    .services-content{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+    .single-service{
+        background-color: #080d16 !important;
+        padding: 30px;
+    }
+    .single-service h3{
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+/*services area end*/
+/*contact area css start*/
+.contact-area{
+    background-color: #1e1345;
+    padding: 100px,0px;
+}
+.contact-content form{
+    display: grid;
+    grid-template-areas: 
+    " f l"
+    "e p"
+    "m m"
+    "s s";
+    gap: 15px;
+}
+#first-name{
+    grid-area: f;
+}
+#last-name{
+    grid-area: l;
+}
+#email{
+    grid-area: e;
+}
+#phone{
+    grid-area: p;
+}
+#textarea{
+    grid-area: m;
+}
+#send-massege{
+    grid-area: s;
+    background-color: #1e1345;
+    cursor: pointer;
+}
+.contact-content input{
+    font-size: 17px;
+    padding: 12px;
+    background-color: transparent;
+    border: 1px solid #1e1345;
+    color: #ffffff;
+}
+.contact-content textarea{
+    font-size: 17px;
+    padding: 12px;
+    background-color: transparent;
+    border: 1px solid #1e1345;
+    color: #ffffff;
 
+}
 
-
-
-    /*services area end*/
+/*contact area css end*/
